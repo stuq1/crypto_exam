@@ -1,0 +1,3 @@
+﻿  lab_2.cpp
+D:\study\Мивт101\crypto\exam\lab_2\lab_2.cpp(15): warning C4715: char_to_int: значение возвращается не при всех путях выполнения
+  lab_2.vcxproj -> D:\study\Мивт101\crypto\exam\x64\Debug\lab_2.exe

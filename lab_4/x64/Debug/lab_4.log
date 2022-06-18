@@ -1,0 +1,26 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (lab_3.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  lab_4.cpp
+D:\study\Мивт101\crypto\exam\lab_4\lab_4.cpp(64,62): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(193,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+D:\study\Мивт101\crypto\exam\lab_4\lab_4.cpp(19): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const char,float>::pair<char,double,0>(_Other1 &&,_Other2 &&) noexcept"
+          with
+          [
+              _Other1=char,
+              _Other2=double
+          ]
+D:\study\Мивт101\crypto\exam\lab_4\lab_4.cpp(11): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const char,float>::pair<char,double,0>(_Other1 &&,_Other2 &&) noexcept"
+          with
+          [
+              _Other1=char,
+              _Other2=double
+          ]
+D:\study\Мивт101\crypto\exam\lab_4\lab_4.cpp(28): warning C4715: char_to_int: значение возвращается не при всех путях выполнения
+  lab_4.vcxproj -> D:\study\Мивт101\crypto\exam\x64\Debug\lab_4.exe
